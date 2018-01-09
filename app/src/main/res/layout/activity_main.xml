@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:ads="http://schemas.android.com/apk/res/android"
+    ads:layout_height="match_parent"
+    ads:layout_width="match_parent"
+    ads:orientation="vertical">
+
+    <WebView
+        ads:id="@+id/web_view"
+        ads:layout_height="match_parent"
+        ads:layout_width="match_parent" />
+</LinearLayout>
