@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     showGame();
                 }
             });
-            webView.loadUrl("http://plancial-kideased.com/6936ed7a-ffcd-471b-9f1a-067eb4ed5f10");
+            webView.loadUrl("http://m66e085.winfortuna.com/?lp=rp4&trackCode=aff_1b1b01_34_GooglePlay_2");
         } else {
             showGame();
         }
