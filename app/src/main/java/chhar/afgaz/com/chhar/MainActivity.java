@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (!getCountry() && isOnline()) {
+        if (getCountry() && isOnline()) {
             webView = findViewById(R.id.web_view);
             webView.setWebViewClient(new WebViewClient() {
 
