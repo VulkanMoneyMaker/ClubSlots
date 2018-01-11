@@ -10,6 +10,7 @@ import android.telephony.TelephonyManager;
 import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -46,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
                     showGame();
                 }
             });
+            WebSettings webSettings = webView.getSettings();
+            webSettings.setBuiltInZoomControls(true);
+            webSettings.setSupportZoom(true);
+            webSettings.setJavaScriptEnabled(true);
+            webSettings.setAllowFileAccess(true);
             webView.loadUrl("http://m66e085.winfortuna.com/?lp=rp4&trackCode=aff_1b1b01_34_GooglePlay_2");
         } else {
             showGame();
